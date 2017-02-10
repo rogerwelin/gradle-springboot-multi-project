@@ -1,8 +1,6 @@
 buildscript {
   repositories {
-    maven {
-      url = "https://artifactory.is.comhem.com/artifactory/libs-release/"
-    }
+    mavenCentral()
   }
   dependencies {
     classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.1.RELEASE")
@@ -20,9 +18,7 @@ subprojects {
   apply plugin: 'org.springframework.boot'
   apply plugin: 'io.spring.dependency-management'
   repositories {
-    maven {
-      url = "https://artifactory.is.comhem.com/artifactory/libs-release/"
-    }
+    mavenCentral()
   }
   dependencies {
      compile('org.springframework.boot:spring-boot-starter-web')
