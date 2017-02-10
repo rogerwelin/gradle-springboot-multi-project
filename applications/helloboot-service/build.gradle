@@ -1,0 +1,6 @@
+mainClassName = "se.codemonkey.App"
+version = "1.0.1"
+
+dependencies {
+  testCompile 'junit:junit:4.12'
+}
