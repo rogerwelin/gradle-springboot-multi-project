@@ -4,6 +4,7 @@
 Example how to set up a multi-project sprinboot with gradle using non-default project paths
 
 ## Project layout
+```bash
 applications/
 ├── helloboot-service
 │   └── src
@@ -13,6 +14,7 @@ applications/
     └── src
         ├── main
         └── test
+```
 
 ## How-to
 gradle clean build
