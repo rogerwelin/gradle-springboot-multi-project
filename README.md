@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/rogerwelin/gradle-springboot-multi-project.svg?branch=master)](https://travis-ci.org/rogerwelin/gradle-springboot-multi-project)
+
 # gradle-springboot-multi-project
 
 ## Intro
